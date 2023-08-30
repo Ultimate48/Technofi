@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Technofi V9.0</title>
+
+    <script>
+        function loadCSS(filename) {
+            var link = document.createElement("link");
+            link.setAttribute("rel", "stylesheet");
+            link.setAttribute("type", "text/css");
+            link.setAttribute("href", filename);
+            document.head.appendChild(link);
+        }
+
+        function applyStylesToSection(section, styles) {
+            styles.forEach(function(style) {
+                section.classList.add(style);
+            });
+        }
+    </script>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Main Navigation -->
+<div class="section1">
+<nav class="main-nav" id="main-nav">
+    <div class="content-wrapper-sm">
+        <a href="#" class="navbar-brand">TechnoFi</a>
+        <div id="menu-button">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#downthelane">Down The Lane</a></li>
+            <li><a href="events.html" target="_blank">Events</a></li>
+            <li><a href="gallery.html" target="_blank">Photos</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Main header -->
+<header>
+    <!-- First replaceble image -->
+    <img class="img-absolute" src="WhatsApp%20Image%202023-08-17%20at%2009.43.44.jpg" alt="City 1">
+    <div class="wrapper astonish animated fadeInDown">
+        <h1><strong>TECHNO</strong>FI</h1>
+        <h2>Where Science Meets Technology</h2>
+    </div>
+</header>
+
+<!-- Main content -->
+<main>
+    <div class="content-wrapper" id="about">
+        <!-- second replaceble image -->
+        <img class="img-absolute" src="https://raw.githubusercontent.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/img/city2.png" alt="City 2">
+        <div class="grid">
+            <div class="grid-col-sm-12 grid-col-md-6 astonish" data-animation="fadeInLeft">
+                <h2 class="section-title">About CityScapes</h2>
+                <p>CityScapes is a fully responsive and customizable landing page template. All images can easily be replaced from the html side, without having to dig through the css.</p>
+                <p>The full version of this template is available at Github and it comes with the SASS files in order to provide quicker customization features, for those who are developers.</p>
+                <p>Javascript files are also included, they are used to enhance the user experience but apart from the menu.js file, they are all optional.</p>
+            </div>
+        </div>
+    </div>
+</main>
+</div>
+<div class="content-wrapper" id="downthelane">
+<center>
+    <h1>Down The Lane</h1>
+    <br><br>
+</center>
+
+ <div class="section2">
+
+     <div class="options">
+         <div class="option active" style="--optionBackground:url(BrochImg/T2016.jpg);">
+         <div class="shadow"></div>
+         <div class="label">
+             <a href="Brochures/TECHNOMATICA%202016.pdf" target="_blank">
+             <div class="icon">
+                 <i class="fas fa-eye"></i>
+             </div>
+             </a>
+             <div class="info">
+                 <div class="main">Technofi 2016</div>
+             </div>
+         </div>
+     </div>
+         <div class="option" style="--optionBackground:url(BrochImg/T2017.jpg);">
+             <div class="shadow"></div>
+             <div class="label">
+                 <a href="Brochures/techno%20fi%202017.pdf" target="_blank">
+                 <div class="icon">
+                     <i class="fas fa-eye"></i>
+                 </div>
+                 </a>
+                 <div class="info">
+                     <div class="main">Technofi 2017</div>
+                 </div>
+             </div>
+         </div>
+         <div class="option" style="--optionBackground: url(BrochImg/TV6.0.jpg);">
+             <div class="shadow"></div>
+             <div class="label">
+                 <a href="Brochures/techno%20fi%20V6.0.pdf" target="_blank">
+                 <div class="icon">
+                     <i class="fas fa-eye"></i>
+                 </div>
+                 </a>
+                 <div class="info">
+                     <div class="main">Technofi V6.O</div>
+                 </div>
+             </div>
+         </div>
+         <div class="option" style="--optionBackground:url(BrochImg/TV7.0.jpg);">
+             <div class="shadow"></div>
+             <div class="label">
+                 <a href="Brochures/techno%20fi%20V7.0.pdf" target="_blank">
+                 <div class="icon">
+                     <i class="fas fa-eye"></i>
+                 </div>
+                 </a>
+                 <div class="info">
+                     <div class="main">Technofi V7.O</div>
+                 </div>
+             </div>
+         </div>
+         <div class="option" style="--optionBackground:url(BrochImg/TV8.0.jpg);">
+             <div class="shadow"></div>
+             <div class="label">
+                 <a href="Brochures/TV8.0.pdf" target="_blank">
+                 <div class="icon">
+                     <i class="fas fa-infinity"></i>
+                 </div>
+                 </a>
+                 <div class="info">
+                     <div class="main">Technofi V8.O</div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+</div>
+<div class="section1">
+    <main>
+<!--    <div class="content-wrapper" id="contact">-->
+<!--        &lt;!&ndash; Third replaceble image &ndash;&gt;-->
+<!--        <img class="img-absolute" src="https://raw.githubusercontent.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/img/city3.png" alt="City 3">-->
+
+<!--        &lt;!&ndash; Custom form, important note: you will need additional code in order to make this form work &ndash;&gt;-->
+<!--        <form class="contact-form astonish" action="#" method="post" data-animation="fadeInRight">-->
+<!--            <h2 class="section-title">Contact Us</h2>-->
+<!--            <div class="grid">-->
+<!--                <div class="grid-col-sm-12 grid-col-md-6">-->
+<!--                    <div class="form-group">-->
+<!--                        <input type="text" name="firstName" required>-->
+<!--                        <label for="firstName">First Name:</label>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="grid-col-sm-12 grid-col-md-6">-->
+<!--                    <div class="form-group">-->
+<!--                        <input type="text" name="lastName" required>-->
+<!--                        <label for="lasttName">Last Name:</label>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="grid-col-sm-12">-->
+<!--                    <div class="form-group">-->
+<!--                        <input type="text" name="email" required>-->
+<!--                        <label for="email">Email:</label>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="grid-col-sm-12">-->
+<!--                    <div class="form-group">-->
+<!--                        <textarea name="message" required></textarea>-->
+<!--                        <label for="message">Message:</label>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <input class="btn btn-outline-teal" type="submit" value="Send">-->
+<!--        </form>-->
+<!--    </div>-->
+
+    <!-- This is an embedded Google map, this is easily customizable especially if you get a Google API key, this will allow for more customizable features. -->
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d81584.50435706123!2d78.01229135233557!3d27.198583502637543!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!20z" frameborder="0" style="border:0" allowfullscreen></iframe>
+</main>
+</div>
+
+<!-- Main footer -->
+<footer>
+    <div class="content-wrapper-sm display-flex-between">
+        <!-- Easily replaceble copyright information -->
+        <small>Your copyright 2017.</small>
+
+        <!-- Make sure to edit the links so that they go to your social media. -->
+        <div class="social-links">
+            <ul>
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-snapchat-square" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://rawgit.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/js/astonish.js'></script>
+<script src='https://rawgit.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/js/menu.js'></script>
+<script src='https://rawgit.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/js/nav.js'></script>
+<script src='https://rawgit.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/js/scroll.js'></script>
+<script src="./script.js"></script>
+<script>
+    loadCSS("stylesheets/st1.css")
+    loadCSS("stylesheets/st2.css")
+    loadCSS("stylesheets/st3.css")
+    loadCSS("stylesheets/st4.css")
+    loadCSS("./home2.css");
+
+    var stylesToApply = ["stylesheets/st1.css","stylesheets/st2.css","stylesheets/st3.css","stylesheets/st4.css",
+        "./home2.css"];
+    applyStylesToSection(document.querySelector(".section1"), stylesToApply);
+
+    loadCSS("stylesheets/st5.css")
+    loadCSS("stylesheets/st6.css");
+    loadCSS("./broch.css");
+
+
+    var stylesToApply1 = ["stylesheets/st5.css",
+        "stylesheets/st6.css",
+        "./broch.css"];
+    applyStylesToSection(document.querySelector(".section2"), stylesToApply1);
+</script>
+</body>
+</html>
